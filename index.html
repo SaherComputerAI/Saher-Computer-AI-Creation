@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SAHER COMPUTER AI CREATION</title>
+<meta name="description" content="SAHER COMPUTER AI CREATION - Professional AI Promotion Packages from ₹499 to ₹4,999.">
+<style>
+  :root{
+    --blue:#156f9b;
+    --blue2:#0d5277;
+    --dark:#17232b;
+    --gold:#f5b83d;
+    --green:#168a4a;
+    --red:#d94b3d;
+    --light:#f5f8fa;
+    --text:#18232b;
+    --muted:#66747d;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    margin:0;
+    font-family:Arial,"Noto Sans Devanagari",sans-serif;
+    color:var(--text);
+    background:#eef3f6;
+    line-height:1.5;
+  }
+  .hero{
+    background:
+      linear-gradient(135deg,rgba(15,27,35,.97),rgba(30,48,59,.92)),
+      radial-gradient(circle at 20% 20%,#31566b,transparent 35%);
+    color:#fff;
+    text-align:center;
+    padding:58px 18px 52px;
+  }
+  .brand{
+    font-size:clamp(32px,7vw,64px);
+    font-weight:800;
+    letter-spacing:.5px;
+    margin:0;
+  }
+  .brand span{display:block}
+  .hero-line{
+    width:86px;height:5px;background:var(--gold);
+    margin:18px auto 20px;border-radius:10px;
+  }
+  .hero-sub{
+    font-size:clamp(18px,3vw,28px);
+    margin:0 auto;
+    max-width:800px;
+  }
+  .wrap{max-width:980px;margin:auto;padding:0 16px}
+  .intro{
+    background:#fff;
+    text-align:center;
+    padding:34px 18px 26px;
+  }
+  .intro h2{margin:0 0 12px;font-size:clamp(24px,4vw,38px)}
+  .intro h3{margin:12px 0;font-size:clamp(21px,3.5vw,30px)}
+  .price-range{font-size:24px;font-weight:800;margin:10px 0 0}
+  .section-title{
+    text-align:center;
+    font-size:30px;
+    margin:32px 0 18px;
+  }
+  .packages{
+    display:grid;
+    grid-template-columns:repeat(2,minmax(0,1fr));
+    gap:18px;
+    padding-bottom:8px;
+  }
+  .card{
+    background:#fff;
+    border-radius:18px;
+    padding:24px 20px;
+    box-shadow:0 7px 24px rgba(0,0,0,.08);
+    border:1px solid #e4eaee;
+  }
+  .card h3{margin:0 0 8px;font-size:23px}
+  .price{font-size:32px;font-weight:900;color:var(--blue2);margin:5px 0 12px}
+  .card ul{padding-left:21px;margin:10px 0 20px}
+  .card li{margin:7px 0}
+  .btn{
+    display:block;
+    width:100%;
+    text-align:center;
+    text-decoration:none;
+    border:0;
+    border-radius:10px;
+    padding:14px 16px;
+    font-size:17px;
+    font-weight:800;
+    color:#fff;
+    background:var(--blue);
+    box-shadow:0 4px 10px rgba(21,111,155,.22);
+  }
+  .btn:hover{background:var(--blue2)}
+  .notice{
+    margin:28px 0 22px;
+    background:#fff8df;
+    border:2px solid #f0c75e;
+    border-radius:16px;
+    padding:22px 18px;
+    text-align:center;
+  }
+  .notice h3{margin:0 0 10px;font-size:25px}
+  .notice p{margin:7px 0;font-size:18px;font-weight:700}
+  .cta{
+    background:#fff;
+    border-radius:18px;
+    padding:24px 18px;
+    text-align:center;
+    box-shadow:0 7px 24px rgba(0,0,0,.07);
+    margin:20px 0;
+  }
+  .cta h2{margin:0 0 8px}
+  .cta .btn{max-width:620px;margin:14px auto}
+  .green{background:var(--green)}
+  .green:hover{background:#0e6f3b}
+  .dark{background:var(--dark)}
+  .promotion-note{
+    border:2px solid #156f9b;
+    background:#eef7fb;
+  }
+  .promotion-note h2{color:var(--blue2)}
+  .promotion-note p{font-size:18px;margin:8px 0}
+  .dark:hover{background:#0d171c}
+  .socials{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:12px;
+    margin:20px 0 32px;
+  }
+  .socials .btn{font-size:15px}
+  footer{
+    background:#101a20;
+    color:#fff;
+    text-align:center;
+    padding:28px 18px;
+    margin-top:35px;
+  }
+  footer p{margin:6px 0}
+  .small{color:#cbd4d9;font-size:14px}
+
+  .video-section{background:#fff;border-radius:18px;padding:24px 18px;margin:28px 0;box-shadow:0 7px 24px rgba(0,0,0,.07)}
+  .video-section h2{text-align:center;margin:0 0 8px;font-size:30px}
+  .video-intro{text-align:center;margin:0 0 20px;color:var(--muted);font-size:17px}
+  .video-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+  .video-card{background:#f5f8fa;border:1px solid #e4eaee;border-radius:14px;padding:10px;box-shadow:0 4px 14px rgba(0,0,0,.06)}
+  .video-frame{position:relative;width:100%;aspect-ratio:16/9;overflow:hidden;border-radius:10px;background:#111}
+  .video-launch{position:absolute;inset:0;display:block;color:#fff;text-decoration:none;overflow:hidden;border-radius:10px}
+  .video-thumb{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block;background:#111;transition:transform .25s ease}
+  .video-launch:hover .video-thumb{transform:scale(1.035)}
+  .video-play{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:64px;height:64px;display:flex;align-items:center;justify-content:center;border-radius:50%;background:rgba(217,75,61,.96);color:#fff;font-size:28px;font-weight:900;box-shadow:0 4px 18px rgba(0,0,0,.35);pointer-events:none}
+  .watch-hint{position:absolute;left:50%;bottom:10px;transform:translateX(-50%);padding:5px 10px;border-radius:20px;background:rgba(15,27,35,.88);color:#fff;font-size:12px;font-weight:700;white-space:nowrap;pointer-events:none}
+  .video-launch:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+  .video-label{text-align:center;font-weight:800;margin:9px 0 2px;font-size:15px}
+
+  @media(max-width:700px){
+    .hero{padding:42px 14px 38px}
+    .packages{grid-template-columns:1fr}
+    .socials{grid-template-columns:1fr}
+    .video-grid{grid-template-columns:1fr}
+    .card{padding:21px 17px}
+    .price{font-size:29px}
+  }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <h1 class="brand">
+      <span>SAHER COMPUTER</span>
+      <span>AI CREATION</span>
+    </h1>
+    <div class="hero-line"></div>
+    <p class="hero-sub">आपके Business को अब मिलेगा AI का Professional Touch! 🚀</p>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="intro">
+    <h2>🔥 AI PROMOTION PACKAGES</h2>
+    <div class="price-range">₹499 से ₹4,999 तक</div>
+  </section>
+
+  <h2 class="section-title">💳 अपना Package चुनें</h2>
+
+  <section class="packages">
+
+    <article class="card">
+      <h3>Basic AI Video</h3>
+      <div class="price">₹499</div>
+      <ul>
+        <li>5 Sec Professional AI Promotional Video</li>
+        <li>2 HD AI Images</li>
+        <li>Hindi / Marathi / English Content</li>
+        <li>YouTube • Instagram • Facebook Promotion</li>
+        <li>Professional Business Promotional Content</li>
+      </ul>
+      <a class="btn" href="https://rzp.io/rzp/2RxJA45" target="_blank" rel="noopener">💳 ₹499 BASIC AI VIDEO — PAY NOW</a>
+    </article>
+
+    <article class="card">
+      <h3>Starter AI Video</h3>
+      <div class="price">₹999</div>
+      <ul>
+        <li>5–10 Sec Professional AI Promotional Video</li>
+        <li>4 HD AI Images</li>
+        <li>1 Professional Thumbnail</li>
+        <li>Hindi / Marathi / English Content</li>
+        <li>YouTube • Instagram • Facebook Promotion</li>
+      </ul>
+      <a class="btn" href="https://rzp.io/rzp/IDJoc4ep" target="_blank" rel="noopener">💳 ₹999 STARTER AI VIDEO — PAY NOW</a>
+    </article>
+
+    <article class="card">
+      <h3>Professional AI Video</h3>
+      <div class="price">₹1,999</div>
+      <ul>
+        <li>10–15 Sec Professional AI Promotional Video</li>
+        <li>6 HD AI Images</li>
+        <li>2 Professional Thumbnails</li>
+        <li>Hindi / Marathi / English Content</li>
+        <li>YouTube • Instagram • Facebook Promotion</li>
+      </ul>
+      <a class="btn" href="https://rzp.io/rzp/raRJAZIC" target="_blank" rel="noopener">💳 ₹1,999 PROFESSIONAL AI VIDEO — PAY NOW</a>
+    </article>
+
+    <article class="card">
+      <h3>Business Growth</h3>
+      <div class="price">₹2,999</div>
+      <ul>
+        <li>15–20 Sec Professional AI Promotional Video</li>
+        <li>10 HD AI Images</li>
+        <li>3 Professional Thumbnails</li>
+        <li>Hindi / Marathi / English Content</li>
+        <li>YouTube • Instagram • Facebook Promotion</li>
+      </ul>
+      <a class="btn" href="https://rzp.io/rzp/4jHloWi2" target="_blank" rel="noopener">💳 ₹2,999 BUSINESS GROWTH — PAY NOW</a>
+    </article>
+
+    <article class="card">
+      <h3>Social Media Mega</h3>
+      <div class="price">₹4,999</div>
+      <ul>
+        <li>20–30 Sec Professional AI Promotional Video</li>
+        <li>15 HD AI Images</li>
+        <li>5 Professional Thumbnails</li>
+        <li>Hindi / Marathi / English Content</li>
+        <li>YouTube • Instagram • Facebook Promotion</li>
+      </ul>
+      <a class="btn" href="https://rzp.io/rzp/bncnYIK" target="_blank" rel="noopener">💳 ₹4,999 SOCIAL MEDIA MEGA — PAY NOW</a>
+    </article>
+
+  </section>
+
+  <section class="video-section">
+    <h2>🎬 हमारे Promotional Videos</h2>
+    <p class="video-intro">SAHER COMPUTER AI CREATION के Promotional Videos देखें</p>
+    <div class="video-grid">
+      <div class="video-card">
+        <div class="video-frame" data-video-id="FAU0zVRNAjE">
+          <a class="video-launch" href="https://www.youtube.com/watch?v=FAU0zVRNAjE" target="_blank" rel="noopener noreferrer" aria-label="Watch Promotional Video 01 on YouTube">
+            <img class="video-thumb" src="https://img.youtube.com/vi/FAU0zVRNAjE/maxresdefault.jpg"
+                 alt="Promotional Video 01 thumbnail — click to watch on YouTube" loading="lazy"
+                 onerror="this.onerror=null;this.src='https://img.youtube.com/vi/FAU0zVRNAjE/hqdefault.jpg';">
+            <span class="video-play" aria-hidden="true">▶</span>
+            <span class="watch-hint">Watch on YouTube</span>
+          </a>
+        </div>
+        <div class="video-label">Video 01</div>
+      </div>
+
+      <div class="video-card">
+        <div class="video-frame" data-video-id="zNp5sPA-5RA">
+          <a class="video-launch" href="https://www.youtube.com/watch?v=zNp5sPA-5RA" target="_blank" rel="noopener noreferrer" aria-label="Watch Promotional Video 02 on YouTube">
+            <img class="video-thumb" src="https://img.youtube.com/vi/zNp5sPA-5RA/maxresdefault.jpg"
+                 alt="Promotional Video 02 thumbnail — click to watch on YouTube" loading="lazy"
+                 onerror="this.onerror=null;this.src='https://img.youtube.com/vi/zNp5sPA-5RA/hqdefault.jpg';">
+            <span class="video-play" aria-hidden="true">▶</span>
+            <span class="watch-hint">Watch on YouTube</span>
+          </a>
+        </div>
+        <div class="video-label">Video 02</div>
+      </div>
+
+      <div class="video-card">
+        <div class="video-frame" data-video-id="LPBENeuWgtg">
+          <a class="video-launch" href="https://www.youtube.com/watch?v=LPBENeuWgtg" target="_blank" rel="noopener noreferrer" aria-label="Watch Promotional Video 03 on YouTube">
+            <img class="video-thumb" src="https://img.youtube.com/vi/LPBENeuWgtg/maxresdefault.jpg"
+                 alt="Promotional Video 03 thumbnail — click to watch on YouTube" loading="lazy"
+                 onerror="this.onerror=null;this.src='https://img.youtube.com/vi/LPBENeuWgtg/hqdefault.jpg';">
+            <span class="video-play" aria-hidden="true">▶</span>
+            <span class="watch-hint">Watch on YouTube</span>
+          </a>
+        </div>
+        <div class="video-label">Video 03</div>
+      </div>
+
+      <div class="video-card">
+        <div class="video-frame" data-video-id="XPWCLdb4gx0">
+          <a class="video-launch" href="https://www.youtube.com/watch?v=XPWCLdb4gx0" target="_blank" rel="noopener noreferrer" aria-label="Watch Promotional Video 04 on YouTube">
+            <img class="video-thumb" src="https://img.youtube.com/vi/XPWCLdb4gx0/maxresdefault.jpg"
+                 alt="Promotional Video 04 thumbnail — click to watch on YouTube" loading="lazy"
+                 onerror="this.onerror=null;this.src='https://img.youtube.com/vi/XPWCLdb4gx0/hqdefault.jpg';">
+            <span class="video-play" aria-hidden="true">▶</span>
+            <span class="watch-hint">Watch on YouTube</span>
+          </a>
+        </div>
+        <div class="video-label">Video 04</div>
+      </div>
+
+      <div class="video-card">
+        <div class="video-frame" data-video-id="Ow48vsEsjfo">
+          <a class="video-launch" href="https://www.youtube.com/watch?v=Ow48vsEsjfo" target="_blank" rel="noopener noreferrer" aria-label="Watch Promotional Video 05 on YouTube">
+            <img class="video-thumb" src="https://img.youtube.com/vi/Ow48vsEsjfo/maxresdefault.jpg"
+                 alt="Promotional Video 05 thumbnail — click to watch on YouTube" loading="lazy"
+                 onerror="this.onerror=null;this.src='https://img.youtube.com/vi/Ow48vsEsjfo/hqdefault.jpg';">
+            <span class="video-play" aria-hidden="true">▶</span>
+            <span class="watch-hint">Watch on YouTube</span>
+          </a>
+        </div>
+        <div class="video-label">Video 05</div>
+      </div>
+
+      <div class="video-card">
+        <div class="video-frame" data-video-id="wIAzWHgKAhM">
+          <a class="video-launch" href="https://www.youtube.com/watch?v=wIAzWHgKAhM" target="_blank" rel="noopener noreferrer" aria-label="Watch Promotional Video 06 on YouTube">
+            <img class="video-thumb" src="https://img.youtube.com/vi/wIAzWHgKAhM/maxresdefault.jpg"
+                 alt="Promotional Video 06 thumbnail — click to watch on YouTube" loading="lazy"
+                 onerror="this.onerror=null;this.src='https://img.youtube.com/vi/wIAzWHgKAhM/hqdefault.jpg';">
+            <span class="video-play" aria-hidden="true">▶</span>
+            <span class="watch-hint">Watch on YouTube</span>
+          </a>
+        </div>
+        <div class="video-label">Video 06</div>
+      </div>
+
+      <div class="video-card">
+        <div class="video-frame" data-video-id="lDmCDRCWIAc">
+          <a class="video-launch" href="https://www.youtube.com/watch?v=lDmCDRCWIAc" target="_blank" rel="noopener noreferrer" aria-label="Watch Promotional Video 07 on YouTube">
+            <img class="video-thumb" src="https://img.youtube.com/vi/lDmCDRCWIAc/maxresdefault.jpg"
+                 alt="Promotional Video 07 thumbnail — click to watch on YouTube" loading="lazy"
+                 onerror="this.onerror=null;this.src='https://img.youtube.com/vi/lDmCDRCWIAc/hqdefault.jpg';">
+            <span class="video-play" aria-hidden="true">▶</span>
+            <span class="watch-hint">Watch on YouTube</span>
+          </a>
+        </div>
+        <div class="video-label">Video 07</div>
+      </div>
+
+      <div class="video-card">
+        <div class="video-frame" data-video-id="4rJ0KlGeikk">
+          <a class="video-launch" href="https://www.youtube.com/watch?v=4rJ0KlGeikk" target="_blank" rel="noopener noreferrer" aria-label="Watch Promotional Video 08 on YouTube">
+            <img class="video-thumb" src="https://img.youtube.com/vi/4rJ0KlGeikk/maxresdefault.jpg"
+                 alt="Promotional Video 08 thumbnail — click to watch on YouTube" loading="lazy"
+                 onerror="this.onerror=null;this.src='https://img.youtube.com/vi/4rJ0KlGeikk/hqdefault.jpg';">
+            <span class="video-play" aria-hidden="true">▶</span>
+            <span class="watch-hint">Watch on YouTube</span>
+          </a>
+        </div>
+        <div class="video-label">Video 08</div>
+      </div>
+
+      <div class="video-card">
+        <div class="video-frame" data-video-id="YQ0mSUb46fI">
+          <a class="video-launch" href="https://www.youtube.com/watch?v=YQ0mSUb46fI" target="_blank" rel="noopener noreferrer" aria-label="Watch Promotional Video 09 on YouTube">
+            <img class="video-thumb" src="https://img.youtube.com/vi/YQ0mSUb46fI/maxresdefault.jpg"
+                 alt="Promotional Video 09 thumbnail — click to watch on YouTube" loading="lazy"
+                 onerror="this.onerror=null;this.src='https://img.youtube.com/vi/YQ0mSUb46fI/hqdefault.jpg';">
+            <span class="video-play" aria-hidden="true">▶</span>
+            <span class="watch-hint">Watch on YouTube</span>
+          </a>
+        </div>
+        <div class="video-label">Video 09</div>
+      </div>
+
+      <div class="video-card">
+        <div class="video-frame" data-video-id="gGCgFMc9AqE">
+          <a class="video-launch" href="https://www.youtube.com/watch?v=gGCgFMc9AqE" target="_blank" rel="noopener noreferrer" aria-label="Watch Promotional Video 10 on YouTube">
+            <img class="video-thumb" src="https://img.youtube.com/vi/gGCgFMc9AqE/maxresdefault.jpg"
+                 alt="Promotional Video 10 thumbnail — click to watch on YouTube" loading="lazy"
+                 onerror="this.onerror=null;this.src='https://img.youtube.com/vi/gGCgFMc9AqE/hqdefault.jpg';">
+            <span class="video-play" aria-hidden="true">▶</span>
+            <span class="watch-hint">Watch on YouTube</span>
+          </a>
+        </div>
+        <div class="video-label">Video 10</div>
+      </div>
+
+      <div class="video-card">
+        <div class="video-frame" data-video-id="rUK2QQXd7Ok">
+          <a class="video-launch" href="https://www.youtube.com/watch?v=rUK2QQXd7Ok" target="_blank" rel="noopener noreferrer" aria-label="Watch Promotional Video 11 on YouTube">
+            <img class="video-thumb" src="https://img.youtube.com/vi/rUK2QQXd7Ok/maxresdefault.jpg"
+                 alt="Promotional Video 11 thumbnail — click to watch on YouTube" loading="lazy"
+                 onerror="this.onerror=null;this.src='https://img.youtube.com/vi/rUK2QQXd7Ok/hqdefault.jpg';">
+            <span class="video-play" aria-hidden="true">▶</span>
+            <span class="watch-hint">Watch on YouTube</span>
+          </a>
+        </div>
+        <div class="video-label">Video 11</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta promotion-note">
+    <h2>📢 PACKAGE VIDEO PROMOTION</h2>
+    <p><strong>आपके Package के साथ तैयार किए गए Promotional Video का Free Promotion किया जाएगा।</strong></p>
+    <p>अगर आपको Paid Promotion या Boost करवाना है, तो उसके लिए अलग से Paid Promotion Package लेना होगा।</p>
+  </section>
+
+  <section class="notice">
+    <h3>⚠️ PAYMENT NOTICE</h3>
+    <p>Payment Successful होने के बाद ही यह Customer Details Form भरें।</p>
+    <p>बिना Successful Payment के प्राप्त Form पर कोई भी Work शुरू नहीं किया जाएगा।</p>
+  </section>
+
+  <section class="cta">
+    <h2>📝 Customer Details</h2>
+    <p><strong>Payment के बाद CUSTOMER DETAILS भरें</strong></p>
+    <a class="btn green" href="https://docs.google.com/forms/d/e/1FAIpQLSdZM7fJjWpLmSvL2MQFEmNg1i1GE5xU6uCMOVC_XkOniK15BQ/viewform?usp=dialog" target="_blank" rel="noopener">
+      📝 CUSTOMER DETAILS FORM
+    </a>
+  </section>
+
+  <section class="cta">
+    <h2>📲 Photos / Logo भेजें</h2>
+    <p>Shop / Business के Clear Photos और Owner के अच्छे Photos WhatsApp पर भेजें।</p>
+    <a class="btn green" href="https://wa.me/919511661170" target="_blank" rel="noopener">
+      📲 WhatsApp — Photos / Logo भेजें
+    </a>
+  </section>
+
+  <h2 class="section-title">🌐 SAHER COMPUTER AI CREATION से जुड़ें</h2>
+  <section class="socials">
+    <a class="btn" href="https://www.youtube.com/@SaherComputerAI" target="_blank" rel="noopener">▶️ YouTube</a>
+    <a class="btn" href="https://www.instagram.com/sahercomputer/?hl=en" target="_blank" rel="noopener">📷 Instagram</a>
+    <a class="btn" href="https://www.facebook.com/yusuf.noor.779" target="_blank" rel="noopener">📘 Facebook</a>
+  </section>
+</main>
+
+<footer>
+  <p><strong>SAHER COMPUTER AI CREATION</strong></p>
+  <p>AI Image • AI Video • AI Poster • Business Promotion</p>
+  <p>📱 WhatsApp: 9511661170</p>
+  <p>📧 sahercomputer@gmail.com</p>
+  <p class="small">Professional AI Promotional Content for Businesses</p>
+</footer>
+
+
+</body>
+</html>
